@@ -1,0 +1,83 @@
+body {
+    background-image: url(../image/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 200px;
+    width: 400px;
+    height: 100px;
+    border: 10px solid rgb(172, 118, 3);
+    padding-bottom: 25px;
+    color: white;
+    background-color: black;
+    margin-left: 440px;
+}
+#main1 {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 200px;
+    width: 400px;
+    height: 100px;
+    border: 10px solid rgb(172, 118, 3);
+    padding-bottom: 25px;
+    animation-name: im;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    color: white;
+    background-color: black;
+}
+@keyframes im {
+    0%{
+        margin-left: 440px;
+    }
+    25% {
+        margin-left: 850px;
+    }
+    50% {
+        margin-left: 440px;
+    }
+    75%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: 440px;
+    }
+
+}
+h1{
+    display: inline-block;
+    background-color: rgb(36, 34, 34);
+    width: 100px;
+}
+#sub {
+    margin: auto;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border: 10px solid rgb(172, 118, 3);
+}
+#str {
+    width: 98px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+#stp {
+    width: 98px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    
+}
+
